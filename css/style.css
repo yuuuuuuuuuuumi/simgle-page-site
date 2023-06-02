@@ -1,0 +1,48 @@
+@charset "utf-8"
+
+/*初期スタイル調整*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica", YuGothic,
+    "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo,
+    sans-serif;
+    color: #806342;
+    background-color: #fff;
+}
+
+h1,
+h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    line-height: 1.2;
+}
+
+a {
+    color: #806342;
+    text-decoration: underline;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+ul {
+    margin: 1em 0;
+    padding: 0;
+    list-style: none;
+}
+figure {
+    margin: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+address {
+    font-style: normal;
+}
