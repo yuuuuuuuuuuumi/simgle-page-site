@@ -1,7 +1,7 @@
-@charset "utf-8"
+@charset "utf-8";
 
 /*初期スタイル調整*/
-* {  
+* { 
     box-sizing: border-box;
 }
 
@@ -9,14 +9,13 @@ body {
     font-size: 16px;
     line-height: 1.5;
     font-family: -apple-system, BlinkMacSystemFont, "Helvetica", YuGothic,
-    "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo,
+    "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN",Arial, "メイリオ", Meiryo,
     sans-serif;
     color: #806342;
     background-color: #fff;
 }
 
-h1,
-h2 {
+h1,h2 {
     margin-top: 0;
     margin-bottom: 30px;
     line-height: 1.2;
@@ -24,6 +23,9 @@ h2 {
 
 a {
     color: #806342;
+    text-decoration: none;
+}
+a:hover {
     text-decoration: underline;
 }
 
@@ -48,38 +50,38 @@ address {
 }
 
 /*ヘッダー*/
-.header{
+.header {
     width: 1000px;
     margin: 0 auto;
     padding: 20px 0;
 }
 /*ロゴ*/
-.logo{
+.logo {
     margin: 0;
     text-align: center;
 }
 /*メイン*/
-.main{
+.main {
     width: 1000px;
     margin: 0 auto;
 }
 /*トップ(メインイメージ)*/
-.top{
+.top {
     margin-bottom: 20px;
     text-align: center;
 }
 
 /*ナビ*/
-.nav{
+.nav {
     margin-bottom: 50px;
     text-align: center;
 }
-.nav-list li{
+.nav-list li {
     display: inline-block;
     margin: 0;
     border-left: 1px solid #806342;
 }
-.nav-list li:first-child{
+.nav-list li:first-child {
     border-left: none;
 }
 .nav-list a {
@@ -90,25 +92,25 @@ address {
 }
 
 /*セクション*/
-.sectin{
+.section {
     margin: 0 auto 80px;
 }
 /*見出し*/
-.heading{
+.heading {
     margin-bottom: 40px;
     text-align: center;
 }
 
 /*アバウト*/
-.about{
+.about {
     text-align: center;
 }
 
 /*メニュー*/
-.menu{
+.menu {
     text-align: center;
 }
-.menu-list{
+.menu-list {
     display: inline-block;
     margin-left: 30px;
     list-style: disc;
@@ -150,7 +152,7 @@ address {
     font-size: 14px;
 }
 .access-address strong {
-    -display: block;
+    display: block;
     margin: 10px 0;
     font-size: 22px;
 }
